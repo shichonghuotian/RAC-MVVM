@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F87CAF2070E325000F5E71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F87CAE2070E325000F5E71 /* AppDelegate.m */; };
+		18F87CB22070E325000F5E71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F87CB12070E325000F5E71 /* ViewController.m */; };
+		18F87CB52070E325000F5E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F87CB32070E325000F5E71 /* Main.storyboard */; };
+		18F87CB72070E325000F5E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F87CB62070E325000F5E71 /* Assets.xcassets */; };
+		18F87CBA2070E325000F5E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F87CB82070E325000F5E71 /* LaunchScreen.storyboard */; };
+		18F87CBD2070E325000F5E71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F87CBC2070E325000F5E71 /* main.m */; };
+		18F87CC82070E401000F5E71 /* SignInViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F87CC72070E401000F5E71 /* SignInViewModel.m */; };
+		18F87CED2070E782000F5E71 /* WDummySignInService.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F87CEC2070E781000F5E71 /* WDummySignInService.m */; };
+		4320080A611767B7C0663F2A /* Pods_Login_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91985BA60D19732BAAA54B40 /* Pods_Login_MVVM.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CA22862C62FB490448E1B03 /* Pods-Login-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login-MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-Login-MVVM/Pods-Login-MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		18F87CAA2070E325000F5E71 /* Login-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F87CAD2070E325000F5E71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F87CAE2070E325000F5E71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F87CB02070E325000F5E71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F87CB12070E325000F5E71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18F87CB42070E325000F5E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F87CB62070E325000F5E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F87CB92070E325000F5E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F87CBB2070E325000F5E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F87CBC2070E325000F5E71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F87CC62070E401000F5E71 /* SignInViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInViewModel.h; sourceTree = "<group>"; };
+		18F87CC72070E401000F5E71 /* SignInViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInViewModel.m; sourceTree = "<group>"; };
+		18F87CEB2070E781000F5E71 /* WDummySignInService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDummySignInService.h; sourceTree = "<group>"; };
+		18F87CEC2070E781000F5E71 /* WDummySignInService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDummySignInService.m; sourceTree = "<group>"; };
+		91985BA60D19732BAAA54B40 /* Pods_Login_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BE975BAC004448C570DA7C /* Pods-Login-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login-MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Login-MVVM/Pods-Login-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F87CA72070E325000F5E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4320080A611767B7C0663F2A /* Pods_Login_MVVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13EB7063771EC018F5523EFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94BE975BAC004448C570DA7C /* Pods-Login-MVVM.debug.xcconfig */,
+				0CA22862C62FB490448E1B03 /* Pods-Login-MVVM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		18F87CA12070E325000F5E71 = {
+			isa = PBXGroup;
+			children = (
+				18F87CAC2070E325000F5E71 /* Login-MVVM */,
+				18F87CAB2070E325000F5E71 /* Products */,
+				13EB7063771EC018F5523EFF /* Pods */,
+				BE05BD59FC0133268E23E4EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18F87CAB2070E325000F5E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F87CAA2070E325000F5E71 /* Login-MVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F87CAC2070E325000F5E71 /* Login-MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				18F87CAD2070E325000F5E71 /* AppDelegate.h */,
+				18F87CAE2070E325000F5E71 /* AppDelegate.m */,
+				18F87CB02070E325000F5E71 /* ViewController.h */,
+				18F87CB12070E325000F5E71 /* ViewController.m */,
+				18F87CC62070E401000F5E71 /* SignInViewModel.h */,
+				18F87CC72070E401000F5E71 /* SignInViewModel.m */,
+				18F87CEB2070E781000F5E71 /* WDummySignInService.h */,
+				18F87CEC2070E781000F5E71 /* WDummySignInService.m */,
+				18F87CB32070E325000F5E71 /* Main.storyboard */,
+				18F87CB62070E325000F5E71 /* Assets.xcassets */,
+				18F87CB82070E325000F5E71 /* LaunchScreen.storyboard */,
+				18F87CBB2070E325000F5E71 /* Info.plist */,
+				18F87CBC2070E325000F5E71 /* main.m */,
+			);
+			path = "Login-MVVM";
+			sourceTree = "<group>";
+		};
+		BE05BD59FC0133268E23E4EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91985BA60D19732BAAA54B40 /* Pods_Login_MVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F87CA92070E325000F5E71 /* Login-MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F87CC02070E325000F5E71 /* Build configuration list for PBXNativeTarget "Login-MVVM" */;
+			buildPhases = (
+				695DE5D03F604DDFDD3E9D65 /* [CP] Check Pods Manifest.lock */,
+				18F87CA62070E325000F5E71 /* Sources */,
+				18F87CA72070E325000F5E71 /* Frameworks */,
+				18F87CA82070E325000F5E71 /* Resources */,
+				81891A18D4CD2FB3F844F023 /* [CP] Embed Pods Frameworks */,
+				47CDC715A1F0FC23CA4955E3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Login-MVVM";
+			productName = "Login-MVVM";
+			productReference = 18F87CAA2070E325000F5E71 /* Login-MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F87CA22070E325000F5E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wy;
+				TargetAttributes = {
+					18F87CA92070E325000F5E71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18F87CA52070E325000F5E71 /* Build configuration list for PBXProject "Login-MVVM" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F87CA12070E325000F5E71;
+			productRefGroup = 18F87CAB2070E325000F5E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F87CA92070E325000F5E71 /* Login-MVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F87CA82070E325000F5E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F87CBA2070E325000F5E71 /* LaunchScreen.storyboard in Resources */,
+				18F87CB72070E325000F5E71 /* Assets.xcassets in Resources */,
+				18F87CB52070E325000F5E71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47CDC715A1F0FC23CA4955E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Login-MVVM/Pods-Login-MVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		695DE5D03F604DDFDD3E9D65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Login-MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81891A18D4CD2FB3F844F023 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Login-MVVM/Pods-Login-MVVM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Login-MVVM/Pods-Login-MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F87CA62070E325000F5E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F87CB22070E325000F5E71 /* ViewController.m in Sources */,
+				18F87CC82070E401000F5E71 /* SignInViewModel.m in Sources */,
+				18F87CED2070E782000F5E71 /* WDummySignInService.m in Sources */,
+				18F87CBD2070E325000F5E71 /* main.m in Sources */,
+				18F87CAF2070E325000F5E71 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18F87CB32070E325000F5E71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F87CB42070E325000F5E71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F87CB82070E325000F5E71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F87CB92070E325000F5E71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F87CBE2070E325000F5E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F87CBF2070E325000F5E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F87CC12070E325000F5E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94BE975BAC004448C570DA7C /* Pods-Login-MVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Login-MVVM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wy.login.mvvm.Login-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F87CC22070E325000F5E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA22862C62FB490448E1B03 /* Pods-Login-MVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Login-MVVM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wy.login.mvvm.Login-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F87CA52070E325000F5E71 /* Build configuration list for PBXProject "Login-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F87CBE2070E325000F5E71 /* Debug */,
+				18F87CBF2070E325000F5E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F87CC02070E325000F5E71 /* Build configuration list for PBXNativeTarget "Login-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F87CC12070E325000F5E71 /* Debug */,
+				18F87CC22070E325000F5E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F87CA22070E325000F5E71 /* Project object */;
+}
